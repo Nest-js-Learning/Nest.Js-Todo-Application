@@ -1,0 +1,27 @@
+so here are learning as follows 
+
+1. Middleware = 
+ - created a middleware function in this called looger u can see that in src folder 
+ - it is created using a command - nest  middleware <name>
+ - it works same as the other middleware works 
+ - Now to use this middleware u can check todo.module.ts there it is used forparticular to do only 
+ - If user wants to use for the whole can add that in main.ts i have also added that code and commented 
+
+2. DTO
+- dto is the part that is created using class-validator 
+- it is the same thing like typescript do to check the input 
+
+3. DB connection 
+Db connection steps are as follows 
+1. install nestjs/typeorm and typeorm
+- this is for the orm 
+
+2. npm install pg 
+
+3. npm i @nestjs/config 
+
+4. Now  check the app.module.ts in that all the code is mentioned for DB connection
+
+5. now u have to create a entity that is called the db schema 
+- that i have created in entity folder and that is to be called in app.module.ts so whenever the app starts table would be geenrated 
+
